@@ -1,0 +1,15 @@
+{
+  "name": "multiplayer-pong-61f7c4ad191f9da96bdf2de49c37f5c62646ef32",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.1"
+  }
+}

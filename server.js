@@ -12,5 +12,5 @@ server.listen(port);
 console.log("server is running on port " + port);
 
 io.on("connection", (socket) => {
-  console.log("user connected");
+  console.log("user connected from backend with socket id: " + socket.id);
 });
